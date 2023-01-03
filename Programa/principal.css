@@ -1,0 +1,22 @@
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #EFF1FA;
+}
+form{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;
+
+    background-color: aqua;
+}
+.texto-aqui{
+    vertical-align: top;
+}
+.texto-a-ingresar{
+    border: none;
+    font-size: 1rem;
+}
