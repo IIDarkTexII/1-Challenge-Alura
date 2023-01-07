@@ -1,0 +1,1 @@
+document.getElementById("texto-invisible").style.display = "none";

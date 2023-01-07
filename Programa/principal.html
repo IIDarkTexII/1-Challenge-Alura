@@ -9,25 +9,56 @@
     <link rel="stylesheet" href="principal.css">
 </head>
 <body>
-    <main>
-        <img src="C:\Users\jaime rios\OneDrive - INSTITUTO TECNOLOGICO DE PUEBLA\Escritorio\Encriptador\IMG\Logo.png" alt="logo">
-
-        <form>
-            <div class="texto-aqui">
-                <textarea name="aqui" id="aqui" cols="70" rows="10" class="texto-a-ingresar" placeholder="Ingrese el texto aquí" required ></textarea>
+    <header>
+        <div class="contenedor">
+            <div class="header_logo">
+                <img src="C:\Users\jaime rios\OneDrive - INSTITUTO TECNOLOGICO DE PUEBLA\Escritorio\Encriptador\IMG\Logo.png" alt="logo">
             </div>
-            <div class="botones">
-                <p id="caracterE"> &#9888 Solo letras minúsculas y sin acentos </p>
-                <input type="submit" value="Encriptar" class="encriptar">
-                <input type="submit" value="Desencriptar" class="desencriptar">
-            </div>
-        </form>
-        <div class="texto-oculto">
-            <img src="C:\Users\jaime rios\OneDrive - INSTITUTO TECNOLOGICO DE PUEBLA\Escritorio\Encriptador\IMG\Muñeco.png" alt="Muñeco" class="muneco">
-            <p class="nada">Ningún mensaje fue encontrado</p>
-            <p class="instruccion">Ingresa el texto que desees encriptar o desencriptar.</p>
         </div>
+    </header>
 
+
+    <main>
+        <div class="contenedor">
+            <div class="inicial">
+                <!--Espacio para ingresar el mensaje-->
+                <form class="inicial-form">
+                    <div class="ingresar-texto">
+                        <textarea name="aqui" id="aqui" cols="50" rows="10" class="texto-a-ingresar" placeholder="Ingrese el texto aquí" required ></textarea>
+                        
+                        <div class="texto-aqui">
+                            <div class="advertencia">
+                                <p> &#9888 Solo letras minúsculas y sin acentos </p>
+                            </div>
+                            <div class="botones">
+                                <button class="bn">Encriptar</button>
+                                <button class="bn">Desencriptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            <!--Espacio para mostrar el mensaje-->
+                
+                <div class="mensaje-oculto">
+                    <div class="texto-oculto">
+                            <div class="contenido">
+                                <div class="img-texto">
+                                    <img src="C:\Users\jaime rios\OneDrive - INSTITUTO TECNOLOGICO DE PUEBLA\Escritorio\Encriptador\IMG\Muñeco.png" alt="Muñeco" class="muneco">
+                                    <p class="nada">Ningún mensaje fue encontrado</p>
+                                    <p class="instruccion">Ingresa el texto que desees encriptar o desencriptar.</p>
+                                </div>
+                            </div>
+                            <div id="texto-invisible">
+                                <textarea name="texto-fuera" id="texto-fuera" cols="30" rows="10"></textarea>
+                                <button class="bn">Copiar</button>
+                            </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>        
     </main>
 </body>
 <script src="principal.js"></script>
