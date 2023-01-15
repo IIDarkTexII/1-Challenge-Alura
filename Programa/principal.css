@@ -245,7 +245,7 @@ button:active {
 
 }
 
-.contenido{
+#contenido{
     margin: 40px;
     display: flex;
     flex-direction: column;
