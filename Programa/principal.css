@@ -65,14 +65,14 @@ main{
     margin-top: 120px;
 }
 .advertencia > p{
-    margin-left: 120px;
+    margin-left: 250px;
     font-size: 15px;
     color: black;
 }
 
 .botones{
     margin-top: 16px;
-    margin-left: 90px;
+    margin-left: 220px;
 }
 
 button {
@@ -280,12 +280,15 @@ button:active {
     display: inline-block;
 }
 /* Este es el espacio en donde se mostrará el texto después de darle clic*/
-#texto-fuera{
-    font-family: Inter, sans-serif;
-    font-size: 24px;
+
+#texto-invisible>textarea{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
     color:azure;
     background-color: transparent;
     border: none;
+    margin-left: 50px;
 }
 
 #texto-invisible>textarea:focus{
@@ -293,6 +296,22 @@ button:active {
 }
 
 #texto-invisible>button{
-    margin-left: 150px;
+    margin-left: 190px;
     margin-top: 100px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .ingresar-texto>textarea{
+        font-size: 50px;
+        margin-left: 90px;
+    }
+    .advertencia > p{
+        margin-left: 190px;
+        font-size: 24px;
+    }
+    
+    .nada{
+        display: block;
+    }
 }

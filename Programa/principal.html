@@ -12,7 +12,7 @@
     <header>
         <div class="contenedor">
             <div class="header_logo">
-                <img src="C:\Users\jaime rios\OneDrive - INSTITUTO TECNOLOGICO DE PUEBLA\Escritorio\Encriptador\IMG\Logo.png" alt="logo">
+                <img class= "reset" src="C:\Users\jaime rios\OneDrive - INSTITUTO TECNOLOGICO DE PUEBLA\Escritorio\Encriptador\IMG\Logo.png" alt="logo">
             </div>
         </div>
     </header>
@@ -24,15 +24,15 @@
                 <!--Espacio para ingresar el mensaje-->
                 <form class="inicial-form">
                     <div class="ingresar-texto">
-                        <textarea name="aqui" id="aqui" cols="50" rows="10" class="texto-a-ingresar" placeholder="Ingrese el texto aquí" required ></textarea>
+                        <textarea name="aqui"  class="aqui" cols="50" rows="10" class="texto-a-ingresar" placeholder="Ingrese el texto aquí" required ></textarea>
                         
                         <div class="texto-aqui">
                             <div class="advertencia">
                                 <p> &#9888 Solo letras minúsculas y sin acentos </p>
                             </div>
                             <div class="botones">
-                                <button class="bn" id="Encriptar">Encriptar</button>
-                                <button class="bn" id="Desencriptar">Desencriptar</button>
+                                <button class="bn" id="Encriptar" onclick="btnEncriptar()">Encriptar</button>
+                                <button class="bn" id="Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                             </div>
                         </div>
                     </div>
@@ -49,8 +49,8 @@
                                 </div>
                             </div>
                             <div id="texto-invisible">
-                                <textarea name="texto-fuera" id="texto-fuera" cols="30" rows="10"></textarea>
-                                <button class="bn">Copiar</button>
+                                <textarea name="texto-fuera" class="texto-fuera" cols="27" rows="13"></textarea>
+                                <button class="bn" onclick="btnCopiar()">Copiar</button>
                             </div>
                     </div>
                 </div>
