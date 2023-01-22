@@ -9,4 +9,4 @@
 -La letra "o" es convertida para "ober" <br>
 -La letra "u" es convertida para "ufat"<br>
 
-<img src="https://github.com/IIDarkTexII/1-Challenge-Alura/blob/main/IMG/Inicial.png" width="50%" height= "50%">
+<img src="https://github.com/IIDarkTexII/1-Challenge-Alura/blob/main/IMG/Inicial.png" width="100%" height= "100%">
